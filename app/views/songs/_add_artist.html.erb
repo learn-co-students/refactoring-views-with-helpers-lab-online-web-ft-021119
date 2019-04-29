@@ -1,0 +1,6 @@
+
+<% if @song.artist_name %>
+  <h3>Artist Name: <%= link_to @song.artist_name, artist_path(@song.artist) %></h3>
+<% else %>
+  <%= link_to "Add Artist Name", edit_song_path(@song) %>
+<% end %>
