@@ -6,7 +6,7 @@
 2. Write a helper to conditionally display different links
 3. Use the helper in multiple views
 
-## Song Library
+## Song Library 
 
 In this lab, we're going to augment our song library. While, ideally, every song is associated with an artist, this won't always be the case in our application. We'll use helpers to display different links based on whether or not a song is associated with an artist.
 
